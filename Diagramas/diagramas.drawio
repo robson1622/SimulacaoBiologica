@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36">
   <diagram name="Page-1" id="4xPOoUNnqVmvvFk0clRJ">
-    <mxGraphModel dx="1414" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,8 +280,11 @@
         <mxCell id="6kAf7Pxb8sXuL4z8EGjD-59" parent="6kAf7Pxb8sXuL4z8EGjD-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#46495D;" value="+ method(type): type" vertex="1">
           <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="ePl6ItGM-aXJ-OWvzUZ2-13" edge="1" parent="1" source="6kAf7Pxb8sXuL4z8EGjD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;startSize=12;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" target="kSPMJqV8OwR8hBxYayO7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6kAf7Pxb8sXuL4z8EGjD-61" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" value="GerenciadorSimulacao" vertex="1">
-          <mxGeometry height="86" width="160" x="570" y="94" as="geometry" />
+          <mxGeometry height="86" width="160" x="570" y="97" as="geometry" />
         </mxCell>
         <mxCell id="6kAf7Pxb8sXuL4z8EGjD-62" parent="6kAf7Pxb8sXuL4z8EGjD-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#46495D;" value="- ambiente : Ambiente" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -316,6 +319,18 @@
         </mxCell>
         <mxCell id="6kAf7Pxb8sXuL4z8EGjD-68" parent="6kAf7Pxb8sXuL4z8EGjD-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#46495D;" value="+ method(type): type" vertex="1">
           <mxGeometry height="26" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePl6ItGM-aXJ-OWvzUZ2-10" edge="1" parent="1" source="ePl6ItGM-aXJ-OWvzUZ2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=60;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" target="6kAf7Pxb8sXuL4z8EGjD-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePl6ItGM-aXJ-OWvzUZ2-9" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;labelBackgroundColor=none;fontColor=#46495D;" value="Aqui cabe um arquivo de configuração da simulação." vertex="1">
+          <mxGeometry height="100" width="100" x="390" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePl6ItGM-aXJ-OWvzUZ2-12" edge="1" parent="1" source="ePl6ItGM-aXJ-OWvzUZ2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" target="6kAf7Pxb8sXuL4z8EGjD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePl6ItGM-aXJ-OWvzUZ2-11" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;labelBackgroundColor=none;fontColor=#46495D;" value="Posso ter a classe sem atributos? No nosso caso o comportamento em run() é extenso e diferente para todos os seres" vertex="1">
+          <mxGeometry height="100" width="190" x="80" y="773" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
